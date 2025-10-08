@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_2
+# Install script for directory: /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

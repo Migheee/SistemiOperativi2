@@ -1,5 +1,5 @@
 CMakeFiles/ese_2.dir/src/producer.c.o: \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/src/producer.c \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/src/producer.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -60,5 +60,5 @@ CMakeFiles/ese_2.dir/src/producer.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_stat.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/inc/producer.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/inc/errExit.h
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/inc/producer.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/inc/errExit.h

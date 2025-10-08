@@ -1,5 +1,5 @@
 CMakeFiles/ese_2.dir/src/main.c.o: \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/src/main.c \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/src/main.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -77,6 +77,6 @@ CMakeFiles/ese_2.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/inc/consumer.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/inc/producer.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_2/inc/errExit.h
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/inc/consumer.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/inc/producer.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_2/inc/errExit.h
