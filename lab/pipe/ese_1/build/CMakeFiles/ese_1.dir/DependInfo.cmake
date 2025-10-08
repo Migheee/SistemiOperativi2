@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/consumer.c" "CMakeFiles/ese_1.dir/src/consumer.c.o" "gcc" "CMakeFiles/ese_1.dir/src/consumer.c.o.d"
-  "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/errExit.c" "CMakeFiles/ese_1.dir/src/errExit.c.o" "gcc" "CMakeFiles/ese_1.dir/src/errExit.c.o.d"
-  "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/main.c" "CMakeFiles/ese_1.dir/src/main.c.o" "gcc" "CMakeFiles/ese_1.dir/src/main.c.o.d"
-  "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/producer.c" "CMakeFiles/ese_1.dir/src/producer.c.o" "gcc" "CMakeFiles/ese_1.dir/src/producer.c.o.d"
+  "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/consumer.c" "CMakeFiles/ese_1.dir/src/consumer.c.o" "gcc" "CMakeFiles/ese_1.dir/src/consumer.c.o.d"
+  "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/errExit.c" "CMakeFiles/ese_1.dir/src/errExit.c.o" "gcc" "CMakeFiles/ese_1.dir/src/errExit.c.o.d"
+  "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/main.c" "CMakeFiles/ese_1.dir/src/main.c.o" "gcc" "CMakeFiles/ese_1.dir/src/main.c.o.d"
+  "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/producer.c" "CMakeFiles/ese_1.dir/src/producer.c.o" "gcc" "CMakeFiles/ese_1.dir/src/producer.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

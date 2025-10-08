@@ -1,7 +1,7 @@
 CMakeFiles/ese_1.dir/src/errExit.c.o: \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/errExit.c \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/errExit.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/inc/errExit.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/inc/errExit.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

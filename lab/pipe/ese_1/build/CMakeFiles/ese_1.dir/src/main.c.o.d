@@ -1,5 +1,5 @@
 CMakeFiles/ese_1.dir/src/main.c.o: \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/main.c \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/main.c \
  /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -55,6 +55,6 @@ CMakeFiles/ese_1.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/inc/consumer.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/inc/producer.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/inc/errExit.h
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/inc/consumer.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/inc/producer.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/inc/errExit.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1"
+CMAKE_SOURCE_DIR = /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build"
+CMAKE_BINARY_DIR = /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ese_1.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/ese_1.dir/progress.make
 include CMakeFiles/ese_1.dir/flags.make
 
 CMakeFiles/ese_1.dir/src/consumer.c.o: CMakeFiles/ese_1.dir/flags.make
-CMakeFiles/ese_1.dir/src/consumer.c.o: /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/consumer.c
+CMakeFiles/ese_1.dir/src/consumer.c.o: /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/consumer.c
 CMakeFiles/ese_1.dir/src/consumer.c.o: CMakeFiles/ese_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ese_1.dir/src/consumer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/consumer.c.o -MF CMakeFiles/ese_1.dir/src/consumer.c.o.d -o CMakeFiles/ese_1.dir/src/consumer.c.o -c "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/consumer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ese_1.dir/src/consumer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/consumer.c.o -MF CMakeFiles/ese_1.dir/src/consumer.c.o.d -o CMakeFiles/ese_1.dir/src/consumer.c.o -c /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/consumer.c
 
 CMakeFiles/ese_1.dir/src/consumer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ese_1.dir/src/consumer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/consumer.c" > CMakeFiles/ese_1.dir/src/consumer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/consumer.c > CMakeFiles/ese_1.dir/src/consumer.c.i
 
 CMakeFiles/ese_1.dir/src/consumer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ese_1.dir/src/consumer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/consumer.c" -o CMakeFiles/ese_1.dir/src/consumer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/consumer.c -o CMakeFiles/ese_1.dir/src/consumer.c.s
 
 CMakeFiles/ese_1.dir/src/producer.c.o: CMakeFiles/ese_1.dir/flags.make
-CMakeFiles/ese_1.dir/src/producer.c.o: /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/producer.c
+CMakeFiles/ese_1.dir/src/producer.c.o: /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/producer.c
 CMakeFiles/ese_1.dir/src/producer.c.o: CMakeFiles/ese_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ese_1.dir/src/producer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/producer.c.o -MF CMakeFiles/ese_1.dir/src/producer.c.o.d -o CMakeFiles/ese_1.dir/src/producer.c.o -c "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/producer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ese_1.dir/src/producer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/producer.c.o -MF CMakeFiles/ese_1.dir/src/producer.c.o.d -o CMakeFiles/ese_1.dir/src/producer.c.o -c /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/producer.c
 
 CMakeFiles/ese_1.dir/src/producer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ese_1.dir/src/producer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/producer.c" > CMakeFiles/ese_1.dir/src/producer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/producer.c > CMakeFiles/ese_1.dir/src/producer.c.i
 
 CMakeFiles/ese_1.dir/src/producer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ese_1.dir/src/producer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/producer.c" -o CMakeFiles/ese_1.dir/src/producer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/producer.c -o CMakeFiles/ese_1.dir/src/producer.c.s
 
 CMakeFiles/ese_1.dir/src/errExit.c.o: CMakeFiles/ese_1.dir/flags.make
-CMakeFiles/ese_1.dir/src/errExit.c.o: /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/errExit.c
+CMakeFiles/ese_1.dir/src/errExit.c.o: /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/errExit.c
 CMakeFiles/ese_1.dir/src/errExit.c.o: CMakeFiles/ese_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ese_1.dir/src/errExit.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/errExit.c.o -MF CMakeFiles/ese_1.dir/src/errExit.c.o.d -o CMakeFiles/ese_1.dir/src/errExit.c.o -c "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/errExit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ese_1.dir/src/errExit.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/errExit.c.o -MF CMakeFiles/ese_1.dir/src/errExit.c.o.d -o CMakeFiles/ese_1.dir/src/errExit.c.o -c /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/errExit.c
 
 CMakeFiles/ese_1.dir/src/errExit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ese_1.dir/src/errExit.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/errExit.c" > CMakeFiles/ese_1.dir/src/errExit.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/errExit.c > CMakeFiles/ese_1.dir/src/errExit.c.i
 
 CMakeFiles/ese_1.dir/src/errExit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ese_1.dir/src/errExit.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/errExit.c" -o CMakeFiles/ese_1.dir/src/errExit.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/errExit.c -o CMakeFiles/ese_1.dir/src/errExit.c.s
 
 CMakeFiles/ese_1.dir/src/main.c.o: CMakeFiles/ese_1.dir/flags.make
-CMakeFiles/ese_1.dir/src/main.c.o: /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/main.c
+CMakeFiles/ese_1.dir/src/main.c.o: /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/main.c
 CMakeFiles/ese_1.dir/src/main.c.o: CMakeFiles/ese_1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ese_1.dir/src/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/main.c.o -MF CMakeFiles/ese_1.dir/src/main.c.o.d -o CMakeFiles/ese_1.dir/src/main.c.o -c "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ese_1.dir/src/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ese_1.dir/src/main.c.o -MF CMakeFiles/ese_1.dir/src/main.c.o.d -o CMakeFiles/ese_1.dir/src/main.c.o -c /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/main.c
 
 CMakeFiles/ese_1.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/ese_1.dir/src/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/main.c" > CMakeFiles/ese_1.dir/src/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/main.c > CMakeFiles/ese_1.dir/src/main.c.i
 
 CMakeFiles/ese_1.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/ese_1.dir/src/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/src/main.c" -o CMakeFiles/ese_1.dir/src/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/main.c -o CMakeFiles/ese_1.dir/src/main.c.s
 
 # Object files for target ese_1
 ese_1_OBJECTS = \
@@ -141,7 +141,7 @@ ese_1: CMakeFiles/ese_1.dir/src/errExit.c.o
 ese_1: CMakeFiles/ese_1.dir/src/main.c.o
 ese_1: CMakeFiles/ese_1.dir/build.make
 ese_1: CMakeFiles/ese_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ese_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ese_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ese_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -153,6 +153,6 @@ CMakeFiles/ese_1.dir/clean:
 .PHONY : CMakeFiles/ese_1.dir/clean
 
 CMakeFiles/ese_1.dir/depend:
-	cd "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1" "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1" "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build" "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build" "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_1/build/CMakeFiles/ese_1.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1 /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1 /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/build/CMakeFiles/ese_1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ese_1.dir/depend
 

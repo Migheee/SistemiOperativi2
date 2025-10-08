@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -isystem "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_3/inc"
+C_INCLUDES = -isystem /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/inc
 
 C_FLAGS = 
 

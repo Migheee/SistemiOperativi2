@@ -1,5 +1,5 @@
 CMakeFiles/ese_3.dir/src/main.c.o: \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_3/src/main.c \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/src/main.c \
  /usr/include/stdc-predef.h /usr/include/unistd.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -58,4 +58,4 @@ CMakeFiles/ese_3.dir/src/main.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_3/inc/errExit.h
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/inc/errExit.h

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_3/src/errExit.c" "CMakeFiles/ese_3.dir/src/errExit.c.o" "gcc" "CMakeFiles/ese_3.dir/src/errExit.c.o.d"
-  "/mnt/c/Users/admin/Downloads/1. Schemi codice Pipe/1. Schemi codice Pipe/ese_3/src/main.c" "CMakeFiles/ese_3.dir/src/main.c.o" "gcc" "CMakeFiles/ese_3.dir/src/main.c.o.d"
+  "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/src/errExit.c" "CMakeFiles/ese_3.dir/src/errExit.c.o" "gcc" "CMakeFiles/ese_3.dir/src/errExit.c.o.d"
+  "/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/src/main.c" "CMakeFiles/ese_3.dir/src/main.c.o" "gcc" "CMakeFiles/ese_3.dir/src/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

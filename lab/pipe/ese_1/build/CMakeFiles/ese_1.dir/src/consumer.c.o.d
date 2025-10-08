@@ -1,5 +1,5 @@
 CMakeFiles/ese_1.dir/src/consumer.c.o: \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/src/consumer.c \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/src/consumer.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -55,5 +55,5 @@ CMakeFiles/ese_1.dir/src/consumer.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/inc/consumer.h \
- /mnt/c/Users/admin/Downloads/1.\ Schemi\ codice\ Pipe/1.\ Schemi\ codice\ Pipe/ese_1/inc/errExit.h
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/inc/consumer.h \
+ /mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_1/inc/errExit.h
