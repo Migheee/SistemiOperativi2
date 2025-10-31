@@ -1,0 +1,7 @@
+CompileFlags:
+  Add:
+    - -I./inc       # cartella degli header
+    - -std=c11      # standard C (puoi cambiare in c99 o c17)
+    - -Wall         # warning generali
+    - -Wextra       # warning extra
+

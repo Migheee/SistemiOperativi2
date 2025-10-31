@@ -20,7 +20,7 @@ int main (int argc, char *argv[]) {
     // Open the FIFO in write-only mode
     int serverFIFO = open(path2ServerFIFO, O_WRONLY);
     if(serverFIFO == -1)
-        errExit("Client Open Failed");
+        errExit("<Client> FIFO Open Failed");
 
     int v [] = {0, 0};
     printf("<Client> Give me two numbers: ");
@@ -29,9 +29,9 @@ int main (int argc, char *argv[]) {
     printf("<Client> sending %d %d\n", v[0], v[1]);
     // Write two integers to the opened FIFO
     if(write(serverFIFO, v, sizeof(v)) == -1)
-        errExit("Client Error Write");
+        errExit("<Client> Error FIFO Write");
 
     // Close the FIFO
     if(close(serverFIFO) == -1)
-        errExit("Client FIFO Closed");
+        errExit("<Client> Error FIFO Closed");
 }

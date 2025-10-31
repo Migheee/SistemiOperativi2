@@ -27,7 +27,7 @@ int main (int argc, char *argv[]) {
     // group: write
     // other: no permission
     if(mkfifo(path2ServerFIFO, 0640) == -1)
-        errExit("mkfifo failed");
+        errExit("<Server> Creation FIFO failed");
 
     printf("<Server> FIFO %s created!\n", path2ServerFIFO);
 
@@ -36,7 +36,7 @@ int main (int argc, char *argv[]) {
     printf("<Server> waiting for a client...\n");
     // Open fifo
     if((serverFIFO = open(path2ServerFIFO, O_RDONLY)) == -1)
-        errExit("Server Open Failed");
+        errExit("<Server> FIFO Open Failed");
 
     int v [] = {0, 0};
     printf("<Server> waiting for vector [a,b]...\n");
@@ -54,7 +54,7 @@ int main (int argc, char *argv[]) {
 
     // Close the FIFO
     if(close(serverFIFO) == -1)
-        errExit("Server Close Error");
+        errExit("<Server> FIFO Close Error");
 
     printf("<Server> removing FIFO...\n");
     // Remove the FIFO

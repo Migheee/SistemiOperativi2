@@ -99,7 +99,7 @@ int main (int argc, char *argv[]) {
         // Check the number of bytes read from the FIFO
         if (bR == -1) {
             printf("<Server> it looks like the FIFO is broken\n");
-        } else if (bR < sizeof(struct Request))
+        } else if ((unsigned long) bR < sizeof(struct Request))
             printf("<Server> it looks like I did not receive a valid request\n");
         else
             sendResponse(&request);

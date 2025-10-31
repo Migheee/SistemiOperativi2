@@ -1,0 +1,3 @@
+/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/semafori/ese_1/build/CMakeFiles/ese_1.dir
+/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/semafori/ese_1/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/semafori/ese_1/build/CMakeFiles/rebuild_cache.dir

@@ -51,7 +51,7 @@ int main (int argc, char *argv[]) {
     // even if all clients closed the write end of the FIFO
     serverFIFO_extra = open(path2ServerFIFO, O_WRONLY);
     if (serverFIFO_extra == -1)
-        errExit("open write-only failed");
+        errExit("<Server> open write-only failed");
 
     int bR = -1;
     int v [] = {0, 1};
@@ -93,12 +93,12 @@ void quit(int sig) {
         errExit("<Server> Close FIFO Error");
 
     if (serverFIFO_extra != 0 && close(serverFIFO_extra) == -1)
-        errExit("close failed");
+        errExit("<Server> Close FIFO failed");
 
     // Removing the FIFO
     unlink(path2ServerFIFO);
 
-    if(sig == 0) printf("exiting");
+    if(sig == 0) printf("Exiting");
     fflush(stdout);
     // terminating the process
     _exit(0);
