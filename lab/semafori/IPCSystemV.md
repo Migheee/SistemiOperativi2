@@ -244,11 +244,7 @@ L'argomento *semid* è l'id del meccanismo IPC creato (in questo caso semafori).
 #define SEMUN_H
 #include <sys/sem.h>
 // definition of the union semun
-union semun {
-  int val;
-  struct semid_ds * buf;
-  unsigned short * array;
-};
+
 #endif
 ```
 
@@ -470,3 +466,10 @@ if (semop(semid, sops, 3) == -1) {
   errExit("semop"); // Some other error
 }
 ``` 
+
+
+### Memoria Condivisa
+
+E' il secondo meccanismo di System V IPC, è un segmento di memoria gestito dal kernel, il quale permette a due o più processi di scambiarsi dati
+
+

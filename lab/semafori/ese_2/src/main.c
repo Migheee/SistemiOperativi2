@@ -55,7 +55,7 @@ int main (int argc, char *argv[]) {
             printf("child %d not created!", child);
         // check if running process is child or parent
         else if (pid == 0) {
-            // code executed only by the child
+            //code executed only by the child
             semOp(semid, child, -1);
 
             printf("%s ", messages[child]);
@@ -72,6 +72,28 @@ int main (int argc, char *argv[]) {
 
 
             exit(0);
+            /*
+            // wait the i-th semaphore
+            semOp(semid, (unsigned short)child, -1);
+
+            // print the message on terminal
+            printf("child %d %s\n", child, messages[child]);
+            // flush the standard out
+            fflush(stdout);
+
+            // decrease the value of the fourth semaphore
+            semOp(semid, 3, -1);
+
+            // unlock the (i-1)-th semaphore.
+            if (child > 0)
+                semOp(semid, (unsigned short)(child - 1), 1);
+
+            // wait the fourth semaphore to be zero
+            semOp(semid, 3, 0);
+
+            // print Done to complete the work
+            printf("Child %d, done!\n", child);
+            */
         }
     }
     // code executed only by the parent process

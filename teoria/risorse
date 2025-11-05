@@ -1,0 +1,35 @@
+Risorse: entità passive richieste alle task per svolgere il loro lavoro
+Esistono due tipi di Risorse:
+    1. Prelazionabili: possono essere sottratte (eg: cpu)
+    2. Non Prelazionabili: devono rimanere in possoesso della task (eg: disco, mutual exclusion)
+
+Le Risorse possono richiedere accesso esclusivo o condiviso
+    1. File in sola lettura possono essere condivisibili
+    2. Stampanti non condivisibili durante la stampa
+
+Il sistema operativo ha il compito di gestire le Risorse condivisibili
+
+Starvation vs Deadlock
+- Starvation: una task che attende indefinitamente
+- Deadlock: attesa circolare per le Risorse
+     A possiede Ris 1 ed aspetta per Ris 2
+     B possiede Ris 2 ed aspetta per Ris 1
+
+Deadlock => Starvation ma non viceversa
+
+Starvation può concludersi (ma non abbiamo garanzie che lo faccia)
+Deadlock non può risolversi senza intervento esterno
+
+Esempio: stallo con 2 thread
+Filo A Filo B
+x.P(); y.P();
+y.P(); x.P();
+y.V(); x.V();
+x.V(); y.V();
+
+Lo stallo non capita sempre su questo codice, ma dipende da:
+1. Se i semafori sono spinlock
+2. La sequenza di temporizzazione di schedulazione
+
+Quattro Requisiti per lo stallo
+1. Mutua Esclusione: Solo un thread alla volta può accedr
