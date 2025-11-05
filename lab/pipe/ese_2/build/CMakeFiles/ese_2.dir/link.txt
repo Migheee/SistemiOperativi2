@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/ese_2.dir/src/consumer.c.o CMakeFiles/ese_2.dir/src/producer.c.o CMakeFiles/ese_2.dir/src/errExit.c.o CMakeFiles/ese_2.dir/src/main.c.o -o ese_2 

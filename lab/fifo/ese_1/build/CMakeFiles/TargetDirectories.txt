@@ -1,4 +1,0 @@
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/fifo/ese_1/build/CMakeFiles/client.dir
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/fifo/ese_1/build/CMakeFiles/server.dir
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/fifo/ese_1/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/fifo/ese_1/build/CMakeFiles/rebuild_cache.dir

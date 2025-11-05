@@ -1,3 +1,0 @@
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/build/CMakeFiles/ese_3.dir
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/admin/Desktop/SistemiOperativi2/lab/pipe/ese_3/build/CMakeFiles/rebuild_cache.dir
