@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/server.dir/link.d CMakeFiles/server.dir/src/server.c.o CMakeFiles/server.dir/src/errExit.c.o CMakeFiles/server.dir/src/shared_memory.c.o CMakeFiles/server.dir/src/semaphore.c.o -o server

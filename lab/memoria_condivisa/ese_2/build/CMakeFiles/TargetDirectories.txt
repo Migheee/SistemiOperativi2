@@ -1,0 +1,4 @@
+/home/mighe/university/sistemiOperativi2/lab/memoria_condivisa/ese_2/build/CMakeFiles/client.dir
+/home/mighe/university/sistemiOperativi2/lab/memoria_condivisa/ese_2/build/CMakeFiles/server.dir
+/home/mighe/university/sistemiOperativi2/lab/memoria_condivisa/ese_2/build/CMakeFiles/edit_cache.dir
+/home/mighe/university/sistemiOperativi2/lab/memoria_condivisa/ese_2/build/CMakeFiles/rebuild_cache.dir
