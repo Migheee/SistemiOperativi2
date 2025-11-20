@@ -1,4 +1,0 @@
-/home/mighe/university/sistemiOperativi2/lab/code_messaggi/ese_3/build/CMakeFiles/client.dir
-/home/mighe/university/sistemiOperativi2/lab/code_messaggi/ese_3/build/CMakeFiles/server.dir
-/home/mighe/university/sistemiOperativi2/lab/code_messaggi/ese_3/build/CMakeFiles/edit_cache.dir
-/home/mighe/university/sistemiOperativi2/lab/code_messaggi/ese_3/build/CMakeFiles/rebuild_cache.dir
