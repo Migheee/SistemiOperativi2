@@ -27,18 +27,22 @@ int main (int argc, char *argv[]) {
     }
 
     // read the request shared memory key
+
     key_t shmRequestKey = atoi(argv[1]);
     if (shmRequestKey <= 0) {
         printf("The request_shared_memory_key must be greater than zero!\n");
         exit(1);
     }
 
+
+
+
     // read the semaphore key defined by user
     key_t semkey = atoi(argv[2]);
     if (semkey <= 0) {
         printf("The semaphore_key must be greater than zero!\n");
         exit(1);
-    }
+   }
 
     // read the response key defined by user
     key_t shmResponseKey = atoi(argv[3]);
@@ -72,7 +76,7 @@ int main (int argc, char *argv[]) {
 
     // get the server's semaphore set
     int semid = semget(semkey, 3, IPC_CREAT | S_IRUSR | S_IWUSR);
-    if (semid > 0) {
+    if (semid >= 0) {
         // unlock the server (REQUEST)
         semOp(semid, REQUEST, 1);
         int cond = 0;

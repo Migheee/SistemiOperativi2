@@ -29,7 +29,6 @@ int create_sem_set(key_t semkey) {
     union semun arg;
     unsigned short values[] = {0, 0, 0};
     arg.array = values;
-
     if (semctl(semid, 0/*ignored*/, SETALL, arg) == -1) errExit("semctl SETALL");
 
     return semid;
@@ -44,10 +43,12 @@ void copy_file(const char *pathname, char *buffer, int semid) {
         return;
     }
 
+
     ssize_t bR = 0;
     do {
         // read the file in chunks of BUFFER_SZ - 1 characters
         bR = read(file, buffer, BUFFER_SZ - 1);
+      
         if (bR >= 0) {
             buffer[bR] = '\0'; // end the lie with '\0'
             // notify that data was stored into client's shared memory (DATA_READY)
@@ -57,7 +58,6 @@ void copy_file(const char *pathname, char *buffer, int semid) {
         } else
             printf("read failed\n");
     } while (bR > 0);
-
     // close the file descriptor
     close(file);
 }
@@ -121,10 +121,11 @@ int main (int argc, char *argv[]) {
     // ...
     free_shared_memory((void *) request); 
 
+
     // remove the request shared memory segment
     printf("<Server> removing the request shared memory segment...\n");
     // ...
     remove_shared_memory(shmRequestId);
-
     return 0;
 }
+

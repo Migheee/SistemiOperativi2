@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <sys/shm.h>
 #include <sys/stat.h>
 
@@ -13,7 +14,8 @@ int alloc_shared_memory(key_t shmKey, size_t size) {
 
 void *get_shared_memory(int shmid, int shmflg) {
     // attach the shared memory
-    void * addr= shmat(shmid, NULL, shmflg);
+    void * addr= shmat(shmid, NULL, shmflg);;
+
     if(addr == (void *) -1) errExit("Error Mem Attach");
     return addr;
 }
@@ -28,3 +30,5 @@ void remove_shared_memory(int shmid) {
     // delete the shared memory segment
     if (shmctl(shmid, IPC_RMID, NULL) == -1) errExit("shmctl failed");
 }
+
+

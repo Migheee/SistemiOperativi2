@@ -21,6 +21,7 @@ void *get_shared_memory(int shmid, int shmflg) {
 void free_shared_memory(void *ptr_sh) {
     // detach the shared memory segments
     if(shmdt(ptr_sh) == -1) errExit("SHMdt failed");
+
     
 }
 
